@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <com.aspsine.swipetoloadlayout.SwipeToLoadLayout
+        android:id="@+id/swipeToLoadLayout"
+        android:overScrollMode="never"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <paintest.painttest.refresh.RefrshHeadView
+            android:id="@+id/swipe_refresh_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="20dp" />
+
+        <RelativeLayout
+            android:id="@+id/swipe_target"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+
+
+        </RelativeLayout>
+
+
+    </com.aspsine.swipetoloadlayout.SwipeToLoadLayout>
+
+
+
+   <!-- <Button android:id="@+id/send"
+        android:layout_height="wrap_content"
+        android:text="发送"
+        android:layout_width="wrap_content" />
+
+    <Button android:id="@+id/length_btn"
+        android:layout_height="wrap_content"
+        android:text="画直线"
+        android:layout_width="wrap_content" />
+
+    <Button android:id="@+id/length_kuang"
+        android:layout_height="wrap_content"
+        android:text="画框"
+        android:layout_width="wrap_content" />
+
+    <Button android:id="@+id/clear"
+        android:layout_height="wrap_content"
+        android:text="清楚"
+        android:layout_width="wrap_content" />
+
+    <Button android:id="@+id/setting"
+        android:layout_height="wrap_content"
+        android:text="设置"
+        android:layout_width="wrap_content" />
+
+
+    <paintest.painttest.DragView
+        android:id="@+id/drawView"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+    </paintest.painttest.DragView>
+-->
+
+
+</LinearLayout>
